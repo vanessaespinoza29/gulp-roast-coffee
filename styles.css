@@ -1,0 +1,101 @@
+/* see the brand guide for colors, fonts, and images in CodePen: 
+https://docs.google.com/document/d/13de5zlWmnox1BbZOiKo1p7tsirkgv0IQLG_bg1R60uE/edit?usp=sharing */
+html {
+    height: 100%;
+  }
+  body {
+    background-color: #082b59;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: #f2f2f2;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    border-bottom: 5px solid #d98555;
+  }
+  
+  nav a {
+    display: flex;
+    align-items: self-end;
+    cursor: pointer;
+  }
+  
+  nav a:hover {
+    color: #d98555;
+    font-style: italic;
+  }
+  
+  nav a .material-icons {
+    font-size: 14px;
+  }
+  section {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex: 1;
+  }
+  .left {
+    width: 40%;
+  }
+  
+  .left h1 {
+    font-family: "Poppins";
+    font-weight: bold;
+    margin: 0;
+  }
+  .right {
+    width: 170px;
+  }
+  
+  .right .image-container {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #59331d;
+  }
+  
+  .right .image-caption {
+    padding: 7px;
+    padding-bottom: 10px;
+    color: #fefefe;
+  }
+  
+  .contact-button {
+    background-color: #59331d;
+    color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .contact-button:hover {
+    background-color: #d98555;
+  }
+  footer {
+    color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 20px;
+    border-top: 5px solid #d98555;
+  }
+  
+  .fa-brands {
+    font-size: 18px;
+    padding: 3px;
+  }
+  
